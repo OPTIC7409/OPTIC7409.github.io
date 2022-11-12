@@ -1,0 +1,68 @@
+body {
+    background: rgb(30, 30, 30);
+    width: 105%;
+    margin-left: -8px;
+    overflow: hidden;
+}
+
+.images {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -175px;
+    left: 550px;
+    object-fit: scale-down;
+    max-width: 100%;
+    pointer-events: none;
+}
+
+.buttonS {
+    object-fit: scale-down;
+    margin-left: 15px;
+    color: #ffffff;
+    background-color: #281c49;
+    border-color: #ffffff;
+    border-radius: 50px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 3em;
+    width: 10em;
+    font-size: medium;
+    font-family: 'Palanquin Dark', sans-serif;
+    font-weight: 200;
+    left: 750px;
+    top: 600px;
+    position: relative;
+}
+
+.icons {
+    object-fit: scale-down;
+    margin-left: -2px;
+}
+
+span {
+    object-fit: scale-down;
+    margin-left: 15px;
+}
+
+.text {
+    object-fit: scale-down;
+    font-family: 'Palanquin Dark', sans-serif;
+    position: absolute;
+    color: white;
+    left: 750px;
+    top: 500px;
+    font-size: 25px;
+}
+
+.unreleased {
+    object-fit: scale-down;
+    font-family: 'Palanquin Dark', sans-serif;
+    position: absolute;
+    color: rgb(179, 89, 89);
+    left: 675px;
+    top: 700px;
+    font-size: 25px;
+}
